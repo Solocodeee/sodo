@@ -1,0 +1,147 @@
+/* start heder */
+body{
+  background-color: black !important;
+}
+.start{
+  padding-left: 600px !important;
+  justify-content: space-between !important;
+}
+.start li a{
+  padding: 0 20px !important;
+  color: whitesmoke;
+}
+.text0{
+  text-align: center;
+  margin-top: 22%;
+
+}
+.lol0{
+  border-radius: 50px !important;
+  font-size: 40px !important;
+  width: 25%;
+}
+.headr{
+  background-image: url(../image/20.jpg);
+  background-size: cover;
+  height: 100vh;
+  
+}
+.layer{
+  background-color: rgba(54, 54, 54, 0.555);
+  height: 100%;
+}
+/* end heder */
+
+.landing{
+  gap: 10px;
+  margin-top: 16px;
+}
+
+
+.footer{
+  background-color: rgb(48, 46, 46);
+  padding: 70px 0;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+.row2{
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.footer-col{
+  width: 25% ;
+  pad: 0 15px !important;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: aliceblue;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e36;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 10px;
+}
+.social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 255, 255 ,0.2);
+  margin-right: 10px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: aliceblue;
+  transition: all 0.5s ease;
+}
+.social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+/* end footer */
+/* resposev */
+@media(max-width:767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width:574px){
+  .footer-col{
+    width: 100%;
+    
+  }
+}
+@media(max-width:767px){
+  .landing2{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width:574px){
+  .landing2{
+    width: 100%;
+    
+  }
+}
+@media (max-width:600px){
+  button{
+    width: 16rem;
+    
+    font-size: 16px;
+  }
+  .landing{
+    gap: 16px;
+  }
+}

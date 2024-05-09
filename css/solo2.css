@@ -1,0 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Libre Baskerville', serif !important;
+    
+}
+.text-150{
+    font-size: 1.5rem;
+}
+
+.goood:hover{
+    background: rgb(255, 255, 255) !important;
+    color: black !important;
+}
